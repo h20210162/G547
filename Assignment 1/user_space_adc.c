@@ -95,7 +95,7 @@ int main()
       }
       else if(align == 1)
       {
-          printf("left alignment number is :- %u\n", data);
+          printf("right alignment number is :- %u\n", data);
           binary(data); 
           printf("data read from ADC is : %u\n ", data);
           data = data*16;
